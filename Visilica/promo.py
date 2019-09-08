@@ -1,3 +1,4 @@
+#coding: utf-8
 import random                   
 import turtle
 import sys
@@ -50,7 +51,7 @@ x = random.randint(1,100)
 #print(x)
 
 turtle.speed(0)                 #скорость рисования
-
+'''
 coord_list = []
 coord = open('coord.txt')
 
@@ -60,7 +61,7 @@ for line in coord:
 	for n in line:
 		nums.append(int(n))
 	coord_list.append(nums)	
-
+'''
 
 
 
@@ -124,4 +125,3 @@ while True:
 		    break
 time.sleep(5)
 
-#dont commit
