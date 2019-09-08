@@ -40,48 +40,29 @@ def draw_gibbet(step, coord):
 	turtle.color('blue')
 	funcs[step](*coord_list[step])
 
-	#if step == 4:
-	#	draw_head(*coord[step])
-	#else:	
-	#	draw_line(*coord[step])
-
-
 x = random.randint(1,100)
 
-#print(x)
+
 
 turtle.speed(0)                 #скорость рисования
-'''
+
 coord_list = []
-coord = open('coord.txt')
 
-for line in coord:
-	line = line.strip().split(',')
-	nums = []
-	for n in line:
-		nums.append(int(n))
-	coord_list.append(nums)	
-'''
+coord = ['-160', '-100', '-160', '80']
+['-160', '80', '-80', '80']
+['-160', '40', '-120', '80']
+['-100', '80', '-100', '40']
+['-100', '0', '20']
+['-100', '0', '-100', '-50']
+['-100', '-10', '-120', '-20']
+['-100', '-10', '-80', '-20']
+['-100', '-50', '-120', '-60']
+['-100', '-50', '-80', '-60']
 
-
-
-#draw_line(*coord_list[0])
-#draw_line(*coord_list[1])
-#draw_line(*coord_list[2])
-#draw_line(*coord_list[3])
-#draw_line(*coord_list[4])
-#draw_line(*coord_list[5])
-#draw_line(*coord_list[6])
-#draw_line(*coord_list[7])
-#draw_line(*coord_list[8])
-#draw_line(*coord_list[9])
-
-#for coord in coord_list:
-#	draw_line(*coord)
-#gotoxy(-100,0)
-#turtle.circle(20)
-	
-
+nums = []
+for n in coord:
+	nums.append(int(n))
+coord_list.append(nums)
 
 answer = turtle.textinput("Играть?", "y/n")             #создает окно с вопросом играть или нет
 if answer != "y":
