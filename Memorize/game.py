@@ -1,23 +1,5 @@
 # coding: utf-8
-# https://yadi.sk/d/e06rsSVo3CJU9L
 
-# Комментарий
-
-# # Транспонирование матрицы
-# matrix = [[0.5, 0, 0, 0, 0],
-#         [ 1, 0.5, 0, 0, 0],
-#         [ 1, 1, 0.5, 0, 0],
-#         [ 1, 1, 1, 0.5, 0],
-#         [ 1, 1, 1, 1, 0.5]]
-
-# #Транспонирование
-# matrix_t = list(zip(*matrix))
-
-# # Вывод матриц
-# print(matrix)
-# print(matrix_t)
-
-# SublimeREPL
 
 # import tkinter
 from tkinter import *
